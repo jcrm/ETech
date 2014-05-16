@@ -7,14 +7,22 @@ Figure \ref{sc:position_pseudo} shows the pseudo code that does this process.
 \centering
 \begin{lstlisting}
 for num of markers{
-Init Cube Object(cube marker value)
-	for num of faces per cube{
-		//pass face and puzzle count
-		Init Puzzle(face, count)
-		for num of tiles
+	if seen{
+		set cube ar matrix();
+	}else{
+		clear ar matrix;
 	}
-//init object
-		object_puzzle_[i]->Init(platform,(Face::Face)i, count, dif);
+}
+
+set cube ar matrix(){
+	for num of faces{
+		set puzzle ar matrix();
+	}
+}
+
+set puzzle ar matrix(){
+	set ar matrix;
+	build new world transform matrix;
 }
 \end{lstlisting}
 \caption{Pseudo Code}
@@ -27,7 +35,14 @@ From here there matrix is then passed to the faces of the cube to be used by the
 \begin{figure}[h|]
 \centering
 \begin{lstlisting}
-
+for each tile{
+	//local rotation multiplied by local position for the puzzle
+	build local martrix();
+	//get the tile matrix and multiply by local matrix;
+	tile matrix * local matrix;
+	current matrix * ar matrix;
+	set the world matrix of each tile to be the current matrix;
+}
 \end{lstlisting}
 \caption{Matrix Pseudo Code}
 \label{sc:matrix_pseudo}
