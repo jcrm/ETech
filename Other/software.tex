@@ -17,12 +17,12 @@ Another class that inherits is the augmented reality camera class as it adds fun
 \begin{figure}[ht!]
 	\label{fig:ClassDiagrams}
 	\centering
-	\includegraphics[width=120mm]{images/ClassDiagram2.PNG}
+	\includegraphics[width=\textwidth]{images/ClassDiagram2.PNG}
 	\caption{Class Diagram}
 \end{figure}
 
 As well as using object-oriented approach to the objects used in the application is a Singleton pattern which is used for a number of the classes that manage particular objects or only need to be created once.
-Currently in Figure {fig:ClassDiagrams} the class that use the singleton pattern are Texture Manager, Input Manager, and the Puzzle Loader and Solver classes.
+Currently in Figure \ref{fig:ClassDiagrams} the class that use the singleton pattern are Texture Manager, Input Manager, and the Puzzle Loader and Solver classes.
 These classes use the pseudo code shown in Figure \ref{sc:singleton_pattern} to create only one instance of itself in addition with the constructor being a private function.
 This code is based upon an example provided by \cite{codeproject2002}. 
 As mentioned previously the reason for using this pattern is it allows for the classes to be created once it also allows for the class to be used in different objects whilst being only initialised once, which is very useful for the Texture Manager.
@@ -52,7 +52,7 @@ If it finds a direction store it and check the other directions.
 If another direction has been found then add the tile to a list to be jumped back to later if the path hits a dead end. Once all directions have been check move to the next location and run again.
 This process is repeated until all the ends are found or there are no more tiles to move to.
 
-\begin{figure}[h|]
+\begin{figure}[h!]
 \centering
 \begin{lstlisting}
 Set current location to be that of the start tile
@@ -63,10 +63,7 @@ while(running){
 	if(end list empty){
 		solved puzzle;
 	}
-	if(north direction clear){
-		set new direction
-	}
-	if(other direction clear){
+	if(direction clear){
 		if(no new direction){
 			set new direction
 		}else{
@@ -87,3 +84,7 @@ while(running){
 \caption{Puzzle Solver Pseudo Code}
 \label{sc:puzzle solver}
 \end{figure}
+
+This process is run every time the user either presses the on screen solver button or the Select button.
+The reason for waiting for user input rather than checking constantly or after every tile change is doing it that would take use a lot of resources that are not needed.
+Also waiting for user input stops the user from accidental solving the puzzle.
