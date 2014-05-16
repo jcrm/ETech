@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.11.16)  16 MAY 2014 13:16
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.11.16)  16 MAY 2014 13:56
 entering extended mode
 **Report.tex
 ("C:\Users\Jake\Documents\UNI\4th Year\et\Report\Report.tex"
@@ -674,10 +674,23 @@ Package pdftex.def Info: images/ClassDiagram2.PNG used on input line 20.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 )) ("C:\Users\Jake\Documents\UNI\4th Year\et\Report\Other/Reflection.tex"
-("C:\Users\Jake\Documents\UNI\4th Year\et\Report\Other/Review.tex")
+("C:\Users\Jake\Documents\UNI\4th Year\et\Report\Other/Review.tex" [5]
+<images/screenshot3.PNG, id=121, 722.7pt x 409.53pt>
+File: images/screenshot3.PNG Graphic file (type png)
+
+<use images/screenshot3.PNG>
+Package pdftex.def Info: images/screenshot3.PNG used on input line 10.
+(pdftex.def)             Requested size: 418.25552pt x 237.0089pt.
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.11 	\caption{Application Screenshot}
+                                       [6])
 ("C:\Users\Jake\Documents\UNI\4th Year\et\Report\Other/Innovation.tex"))
-("C:\Users\Jake\Documents\UNI\4th Year\et\Report\Other/References.tex" [5]
-[6] ("C:\Users\Jake\Documents\UNI\4th Year\et\Report\Report.bbl"
+("C:\Users\Jake\Documents\UNI\4th Year\et\Report\Other/References.tex" [7 <C:/U
+sers/Jake/Documents/UNI/4th Year/et/Report/images/screenshot3.PNG>]
+("C:\Users\Jake\Documents\UNI\4th Year\et\Report\Report.bbl"
 ("C:\Users\Jake\Documents\UNI\4th Year\et\Report\Report.brf")
 \tf@brf=\write4
 LaTeX Font Info:    Try loading font information for U+msa on input line 15.
@@ -695,7 +708,7 @@ Underfull \hbox (badness 1762) in paragraph at lines 15--15
  its im-ple-men-ta-tion with c++\OT1/cmr/m/n/12 .
  []
 
-) [7
+) [8
 
 ])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 9.
@@ -710,10 +723,10 @@ Package rerunfilecheck Info: File `Report.brf' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 9.
  ) 
 Here is how much of TeX's memory you used:
- 9029 strings out of 493921
- 126985 string characters out of 3147284
- 251463 words of memory out of 3000000
- 12084 multiletter control sequences out of 15000+200000
+ 9036 strings out of 493921
+ 127131 string characters out of 3147284
+ 251500 words of memory out of 3000000
+ 12089 multiletter control sequences out of 15000+200000
  10180 words of font info for 39 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  34i,6n,40p,306b,1267s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -722,9 +735,9 @@ ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Program Files/MiKTeX 2.9/fo
 nts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on Report.pdf (7 pages, 117676 bytes).
+Output written on Report.pdf (8 pages, 655330 bytes).
 PDF statistics:
- 199 PDF objects out of 1000 (max. 8388607)
- 87 named destinations out of 1000 (max. 500000)
- 83 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 206 PDF objects out of 1000 (max. 8388607)
+ 88 named destinations out of 1000 (max. 500000)
+ 88 words of extra memory for PDF output out of 10000 (max. 10000000)
 
