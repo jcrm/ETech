@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{3}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{Available from: }
@@ -12,5 +12,15 @@ CodeProject. 2002.
 \newblock \emph{Singleton pattern and its implementation with c++}. [Online].
 \newblock
   \urlprefix\url{http://www.codeproject.com/Articles/1921/Singleton-Pattern-its-implementation-with-C}.
+
+\bibitem[{Munzee(2011)}]{munzee11}
+Munzee. 2011.
+\newblock \emph{Munzee. 21st century scavenger hunt.}. [Online].
+\newblock \urlprefix\url{http://www.munzee.com/}.
+
+\bibitem[{TechnicalIllusions(2013)}]{castar}
+TechnicalIllusions. 2013.
+\newblock \emph{Castar}. [Online].
+\newblock \urlprefix\url{technicalillusions.com/castar/}.
 
 \end{thebibliography}

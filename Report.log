@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.11.16)  16 MAY 2014 14:07
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.11.16)  16 MAY 2014 14:46
 entering extended mode
 **Report.tex
 ("C:\Users\Jake\Documents\UNI\4th Year\et\Report\Report.tex"
@@ -709,9 +709,9 @@ s been already used, duplicate ignored
                    \relax 
 l.11 	\caption{Application Screenshot}
                                        [6])
-("C:\Users\Jake\Documents\UNI\4th Year\et\Report\Other/Innovation.tex"))
-("C:\Users\Jake\Documents\UNI\4th Year\et\Report\Other/References.tex" [7 <C:/U
-sers/Jake/Documents/UNI/4th Year/et/Report/images/screenshot3.PNG>]
+("C:\Users\Jake\Documents\UNI\4th Year\et\Report\Other/Innovation.tex" [7 <C:/U
+sers/Jake/Documents/UNI/4th Year/et/Report/images/screenshot3.PNG>]))
+("C:\Users\Jake\Documents\UNI\4th Year\et\Report\Other/References.tex" [8]
 ("C:\Users\Jake\Documents\UNI\4th Year\et\Report\Report.bbl"
 ("C:\Users\Jake\Documents\UNI\4th Year\et\Report\Report.brf")
 \tf@brf=\write4
@@ -730,7 +730,7 @@ Underfull \hbox (badness 1762) in paragraph at lines 15--15
  its im-ple-men-ta-tion with c++\OT1/cmr/m/n/12 .
  []
 
-) [8
+) [9
 
 ])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 9.
@@ -741,25 +741,25 @@ Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 9.
 Package rerunfilecheck Info: File `Report.out' has not changed.
 (rerunfilecheck)             Checksum: B47A1F73BDA5351A0BC2358DC49C2AA9;462.
 Package rerunfilecheck Info: File `Report.brf' has not changed.
-(rerunfilecheck)             Checksum: 730C268268B6C1574E254F88D1315D0A;49.
+(rerunfilecheck)             Checksum: DF0C6F83FE0ADA42390BC330DD7C88F5;191.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 9.
  ) 
 Here is how much of TeX's memory you used:
- 9162 strings out of 493921
- 128464 string characters out of 3147284
- 253522 words of memory out of 3000000
- 12211 multiletter control sequences out of 15000+200000
+ 9177 strings out of 493921
+ 128650 string characters out of 3147284
+ 253584 words of memory out of 3000000
+ 12223 multiletter control sequences out of 15000+200000
  10180 words of font info for 39 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 34i,11n,43p,306b,1267s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 34i,11n,43p,337b,1267s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Program Files/MiKTeX 2.9/fo
 nts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on Report.pdf (8 pages, 655566 bytes).
+Output written on Report.pdf (9 pages, 663054 bytes).
 PDF statistics:
- 206 PDF objects out of 1000 (max. 8388607)
- 88 named destinations out of 1000 (max. 500000)
+ 226 PDF objects out of 1000 (max. 8388607)
+ 91 named destinations out of 1000 (max. 500000)
  88 words of extra memory for PDF output out of 10000 (max. 10000000)
 

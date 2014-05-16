@@ -3,4 +3,8 @@ The style file: abertay.bst
 Database file #1: Report.bib
 Warning--entry type for "codeproject2002" isn't style-file defined
 --line 1 of file Report.bib
-(There was 1 warning)
+Warning--entry type for "munzee11" isn't style-file defined
+--line 7 of file Report.bib
+Warning--entry type for "castar" isn't style-file defined
+--line 13 of file Report.bib
+(There were 3 warnings)
