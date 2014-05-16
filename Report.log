@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.11.16)  16 MAY 2014 13:56
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.11.16)  16 MAY 2014 14:07
 entering extended mode
 **Report.tex
 ("C:\Users\Jake\Documents\UNI\4th Year\et\Report\Report.tex"
@@ -427,6 +427,17 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks25
 \@floatcapt=\box31
 )
+("C:\Program Files\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
+\fancy@headwidth=\skip48
+\f@ncyO@elh=\skip49
+\f@ncyO@erh=\skip50
+\f@ncyO@olh=\skip51
+\f@ncyO@orh=\skip52
+\f@ncyO@elf=\skip53
+\f@ncyO@erf=\skip54
+\f@ncyO@olf=\skip55
+\f@ncyO@orf=\skip56
+)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2004/09/05 1.3 listings language file
 )
@@ -552,10 +563,10 @@ Package hyperref Message: Driver (autodetected): hpdftex.
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
 \Fld@listcount=\count121
 \c@bookmark@seq@number=\count122
-\Hy@SectionHShift=\skip48
+\Hy@SectionHShift=\skip57
 )
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 36.
-Package hyperref Info: Option `colorlinks' set `true' on input line 36.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 39.
+Package hyperref Info: Option `colorlinks' set `true' on input line 39.
 )
 ("C:\Users\Jake\Documents\UNI\4th Year\et\Report\Report.aux")
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 2.
@@ -650,10 +661,15 @@ File: images/tiles.png Graphic file (type png)
 Package pdftex.def Info: images/tiles.png used on input line 11.
 (pdftex.def)             Requested size: 256.0748pt x 85.36296pt.
 
-[1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/Jake/Documents/U
-NI/4th Year/et/Report/images/tiles.png>])
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+ <C:/Users/Jake/Documents/UNI/4th Year/et/Report/images/tiles.png>])
 ("C:\Users\Jake\Documents\UNI\4th Year\et\Report\Other/Design.tex"
 ("C:\Users\Jake\Documents\UNI\4th Year\et\Report\Other/tech.tex"pdfTeX warning 
 (ext4): destination with the same identifier (name{figure.1}) has been already 
@@ -661,9 +677,15 @@ used, duplicate ignored
 <to be read again> 
                    \relax 
 l.28 \caption{Pseudo Code}
-                           [2])
-("C:\Users\Jake\Documents\UNI\4th Year\et\Report\Other/software.tex" [3]
-<images/ClassDiagram2.PNG, id=91, 502.12593pt x 208.52907pt>
+                          
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[2]) ("C:\Users\Jake\Documents\UNI\4th Year\et\Report\Other/software.tex"
+[3] <images/ClassDiagram2.PNG, id=91, 502.12593pt x 208.52907pt>
 File: images/ClassDiagram2.PNG Graphic file (type png)
 
 <use images/ClassDiagram2.PNG>
@@ -719,23 +741,23 @@ Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 9.
 Package rerunfilecheck Info: File `Report.out' has not changed.
 (rerunfilecheck)             Checksum: B47A1F73BDA5351A0BC2358DC49C2AA9;462.
 Package rerunfilecheck Info: File `Report.brf' has not changed.
-(rerunfilecheck)             Checksum: 735AD5E3229DA13555CF9F15AB021098;49.
+(rerunfilecheck)             Checksum: 730C268268B6C1574E254F88D1315D0A;49.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 9.
  ) 
 Here is how much of TeX's memory you used:
- 9036 strings out of 493921
- 127131 string characters out of 3147284
- 251500 words of memory out of 3000000
- 12089 multiletter control sequences out of 15000+200000
+ 9162 strings out of 493921
+ 128464 string characters out of 3147284
+ 253522 words of memory out of 3000000
+ 12211 multiletter control sequences out of 15000+200000
  10180 words of font info for 39 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 34i,6n,40p,306b,1267s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 34i,11n,43p,306b,1267s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Program Files/MiKTeX 2.9/fo
 nts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on Report.pdf (8 pages, 655330 bytes).
+Output written on Report.pdf (8 pages, 655566 bytes).
 PDF statistics:
  206 PDF objects out of 1000 (max. 8388607)
  88 named destinations out of 1000 (max. 500000)
