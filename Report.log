@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.11.16)  16 MAY 2014 10:32
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.11.16)  16 MAY 2014 13:04
 entering extended mode
 **Report.tex
 ("C:\Users\Jake\Documents\UNI\4th Year\et\Report\Report.tex"
@@ -662,17 +662,38 @@ used, duplicate ignored
                    \relax 
 l.28 \caption{Pseudo Code}
                            [2])
-("C:\Users\Jake\Documents\UNI\4th Year\et\Report\Other/software.tex"))
-("C:\Users\Jake\Documents\UNI\4th Year\et\Report\Other/Reflection.tex" [3])
-("C:\Users\Jake\Documents\UNI\4th Year\et\Report\Other/References.tex" [4]
-("C:\Users\Jake\Documents\UNI\4th Year\et\Report\Report.bbl"
+("C:\Users\Jake\Documents\UNI\4th Year\et\Report\Other/software.tex" [3]
+<images/ClassDiagram2.PNG, id=83, 502.12593pt x 208.52907pt>
+File: images/ClassDiagram2.PNG Graphic file (type png)
+
+<use images/ClassDiagram2.PNG>
+Package pdftex.def Info: images/ClassDiagram2.PNG used on input line 20.
+(pdftex.def)             Requested size: 341.43306pt x 141.80106pt.
+ [4 <C:/Users/Jake/Documents/UNI/4th Year/et/Report/images/ClassDiagram2.PNG>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+)) ("C:\Users\Jake\Documents\UNI\4th Year\et\Report\Other/Reflection.tex")
+("C:\Users\Jake\Documents\UNI\4th Year\et\Report\Other/References.tex" [5]
+[6] ("C:\Users\Jake\Documents\UNI\4th Year\et\Report\Report.bbl"
 ("C:\Users\Jake\Documents\UNI\4th Year\et\Report\Report.brf")
 \tf@brf=\write4
+LaTeX Font Info:    Try loading font information for U+msa on input line 15.
 
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 15.
 
-Package natbib Warning: Empty `thebibliography' environment on input line 10.
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Underfull \hbox (badness 1762) in paragraph at lines 15--15
+[]\OT1/cmr/m/n/12 CodeProject. 2002.  \OT1/cmr/m/it/12 Sin-gle-ton pat-tern and
+ its im-ple-men-ta-tion with c++\OT1/cmr/m/n/12 .
+ []
 
-) [5
+) [7
 
 ])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 9.
@@ -683,23 +704,25 @@ Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 9.
 Package rerunfilecheck Info: File `Report.out' has not changed.
 (rerunfilecheck)             Checksum: 5A4AEE2C0E07D0B7C6CE803B7AF90A26;346.
 Package rerunfilecheck Info: File `Report.brf' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+(rerunfilecheck)             Checksum: 735AD5E3229DA13555CF9F15AB021098;49.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 9.
  ) 
 Here is how much of TeX's memory you used:
- 8882 strings out of 493921
- 124765 string characters out of 3147284
- 231222 words of memory out of 3000000
- 12008 multiletter control sequences out of 15000+200000
- 5616 words of font info for 21 fonts, out of 3000000 for 9000
+ 9022 strings out of 493921
+ 126693 string characters out of 3147284
+ 253385 words of memory out of 3000000
+ 12082 multiletter control sequences out of 15000+200000
+ 10180 words of font info for 39 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 34i,6n,40p,285b,1267s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 34i,6n,40p,306b,1267s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Fil
-es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on Report.pdf (5 pages, 63358 bytes).
+es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on Report.pdf (7 pages, 116659 bytes).
 PDF statistics:
- 114 PDF objects out of 1000 (max. 8388607)
- 44 named destinations out of 1000 (max. 500000)
- 62 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 193 PDF objects out of 1000 (max. 8388607)
+ 88 named destinations out of 1000 (max. 500000)
+ 67 words of extra memory for PDF output out of 10000 (max. 10000000)
 
