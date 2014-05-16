@@ -1,0 +1,45 @@
+\subsection{Technology: }\label{tech}
+When creating the application it was designed and built upon the main aspects of augmented reality applications, the use of a marker as an anchor in the 3D world.
+This application builds all the objects around a designated marker.
+Figure \ref{sc:position_pseudo} shows the pseudo code that does this process.
+
+\begin{figure}[h|]
+\centering
+\begin{lstlisting}
+for num of markers{
+Init Cube Object(cube marker value)
+	for num of faces per cube{
+		//pass face and puzzle count
+		Init Puzzle(face, count)
+		for num of tiles
+	}
+//init object
+		object_puzzle_[i]->Init(platform,(Face::Face)i, count, dif);
+}
+\end{lstlisting}
+\caption{Pseudo Code}
+\label{sc:position_pseudo}
+\end{figure}
+
+In Figure \ref{sc:position_pseudo} the augmented reality marker location matrix is sent to the main cube object.
+From here there matrix is then passed to the faces of the cube to be used by the object as part of its own world matrix.
+
+\begin{figure}[h|]
+\centering
+\begin{lstlisting}
+
+\end{lstlisting}
+\caption{Matrix Pseudo Code}
+\label{sc:matrix_pseudo}
+\end{figure}
+
+An example of how the world matrix is used by a tile in a puzzle can be seen in Figure \ref{sc:matrix_pseudo}.
+This code shows that each tile starts by first creating its own world matrix based upon its own rotation and position.
+Next this matrix is the multiplied by the matrix of the cube object it is relative to.
+This results in the position of the tile in the world being placed just above one of the faces of the cube.
+The next step is what sets the tile relative to the augmented reality marker, which is by multiplying the current matrix by the augmented reality matrix returned from the augmented reality marker.
+
+As well as the application development working well with the exploits of augmented reality the gameplay of the application works well with how augmented reality works.
+As mentioned previously when playing the game the user has to solve the puzzle on each face.
+The best way to do this is by moving around the cube while changing the face needing to be solved at the time.
+This process allows the user to see each face of the cube without interrupting the gameplay to move the marker, which may not be possible if the marker is in a fixed location.
